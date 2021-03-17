@@ -1,0 +1,337 @@
+/*--------------------------------------------------------------
+# Navbar Section
+--------------------------------------------------------------*/
+
+.navbar {
+    background-color: #00322B;
+}
+
+.navbar-brand {
+    padding-left: 0px;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    font-family: Poppins;
+    color: white;
+    font-size: 16px;
+    padding: 0 24px 0;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover {
+    color: #9A6B45;
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero {
+    width: 100%;
+    height: 480px;
+    background: url("../img/metsa-pilt.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero .hero-container {
+    position: absolute;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#hero h1 {
+    font-family: Playfair Display;
+    padding: 150px 120px 190px 120px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+
+#intro {
+    padding-top: 136px;
+    padding-bottom: 136px;
+}
+
+#intro h1 {
+    font-family: Playfair Display;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#intro h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+
+/*--------------------------------------------------------------
+# Just-picture Section
+--------------------------------------------------------------*/
+
+#just-picture {
+    width: 100%;
+    height: 480px;
+    background: url("../img/wood-panels.jpg") top center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#just-picture-2 {
+    width: 100%;
+    height: 480px;
+    background: url("../img/puukoor-pilt.jpg") top center;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+
+#about {
+    padding-top: 136px;
+    padding-bottom: 136px;
+}
+
+#about h3 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+#about h5. {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+#about h6 {
+    font-family: Poppins;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.about .loe-button {
+    background-color: #ffffff;
+    border-radius: 42px;
+    border: 2px solid #d7a461;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 11px 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.loe-button:hover {
+    background-color: #d7a461;
+    color: white
+}
+
+.loe-button:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+
+#blog {
+    padding-top: 64px;
+    width: 100%;
+    height: 480px;
+    background: url("../img/pilt-meri.jpg") top center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 480px;
+}
+
+#blog .blog-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#blog h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#blog h6 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 60px;
+}
+
+#blog h4 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#blog .blog-box {
+    width: 24rem;
+    text-align: left;
+    /*box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);*/
+    background: #fff;
+    padding-bottom: 80px;
+}
+
+#blog .blog-box img {
+    max-width: 100%;
+    border-radius: 0%;
+    margin: 0 0 30px 0;
+}
+
+#blog .blog-box h7 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+    ;
+    padding: 0px 0px;
+}
+
+#blog .blog-box p {
+    color: #000000;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: left;
+    padding-top: 32px;
+}
+
+#blog .loe-edasi-button {
+    background-color: #ffffff;
+    border-radius: 42px;
+    border: 2px solid #d7a461;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 11px 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#blog .loe-edasi-button:hover {
+    background-color: #d7a461;
+    color: white;
+}
+
+#blog .loe-edasi-button:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/*--------------------------------------------------------------
+# Our Clients
+--------------------------------------------------------------*/
+
+.container-klient {
+    padding-top: 50px;
+}
+
+.klient .section-title {
+    font-family: Playfair Display;
+    padding-top: 136px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.klient .member {
+    text-align: center;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    background: #fff;
+}
+
+.klient .member img {
+    max-width: 60%;
+    border-radius: 50%;
+    margin: 0 0 30px 0;
+}
+
+.klient .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.klient .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+.klient .member p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaaaaa;
+}
