@@ -44,6 +44,10 @@
             box-shadow: none !important;
         }
         
+        .navbar-collapse.show .btn:hover {
+            color: #9A6B45;
+        }
+        
         #navbarSupportedContent>ul>li:nth-child(n)>a {
             font-family: Poppins, sans-serif;
             color: white;
@@ -524,4 +528,11 @@
             align-items: center;
             flex-direction: column;
             text-align: center;
+        }
+        
+        @media only screen and (max-width: 991px) {
+            .nav-form-control {
+                margin-left: 50px;
+                padding-right: 0;
+            }
         }
